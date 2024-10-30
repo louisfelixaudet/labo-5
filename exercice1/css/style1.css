@@ -1,0 +1,47 @@
+.puzzle{
+    display: grid;
+    margin-left: 30%;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-areas: 
+    "i6 i8 i5"
+    "i9 i3 i1"
+    "i2 i4 i7";
+}
+
+
+
+#piece1{
+    grid-area: i1;
+}
+
+#piece2{
+    grid-area: i2;
+}
+
+#piece3{
+    grid-area: i3;
+}
+
+#piece4{
+    grid-area: i4;
+}
+
+#piece5{
+    grid-area: i5;
+}
+
+#piece6{
+    grid-area: i6;
+}
+
+#piece7{
+    grid-area: i7;
+}
+
+#piece8{
+    grid-area: i8;
+}
+
+#piece9{
+    grid-area: i9;
+}
